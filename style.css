@@ -1,7 +1,8 @@
 body {
   font-family: arial, sans-serif;
   min-width: 980px;
-  min-height: 540px;
+  min-height: 100%;
+  position: relative;
 }
 
 .btn-group {
@@ -72,6 +73,10 @@ footer {
   border-bottom: none;
 }
 
+html {
+  height: 100%;
+}
+
 input[type="submit"]::-moz-focus-inner {
   border: none;
 }
@@ -89,6 +94,7 @@ input[type="submit"]::-moz-focus-inner {
 main {
   clear: right;
   margin: 152px auto 0 auto;
+  padding-bottom: 80px;
   text-align: center;
   width: 487px;
 }
